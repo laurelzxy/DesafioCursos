@@ -10,7 +10,7 @@ function carregarDesafios() {
     for (const id in perguntas) {
         const pergunta = perguntas[id];
         const div = document.createElement("div");
-        div.className = "pergunta";
+        div.className = 'desafio';
         div.innerHTML = `
             <h3>${pergunta.titulo}</h3>
             <p>${pergunta.descricao}</p>
